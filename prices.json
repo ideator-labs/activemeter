@@ -1,0 +1,8 @@
+{
+  "source": "https://aws.amazon.com/lambda/pricing/",
+  "checked": "2026-10-22",
+  "region": "us-east-1",
+  "note": "Web Functions rates are the ones used in the pricing page's Web Functions examples. Event Functions rate is the first-tier x86 duration rate used in the page's Event Functions example. Free tier ignored.",
+  "event": { "perGbSecond": 0.0000166667, "perMillionRequests": 0.20 },
+  "web": { "perActiveVcpuSecond": 0.0000276944, "perGbSecond": 0.0000036667, "perMillionRequests": 0.30 }
+}

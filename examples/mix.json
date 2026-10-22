@@ -1,0 +1,18 @@
+{
+  "requestsPerMonth": 10000000,
+  "eventMemoryMb": 1024,
+  "routes": [
+    {
+      "path": "/db",
+      "concurrency": 16
+    },
+    {
+      "path": "/render",
+      "concurrency": 1
+    },
+    {
+      "path": "/mixed",
+      "concurrency": 8
+    }
+  ]
+}
